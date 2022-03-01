@@ -6,6 +6,7 @@ import {
 } from "../redux/actions/counterAction";
 
 function Counter(props) {
+	console.log(props);
 	return (
 		<div>
 			<button onClick={props.incrementCounter}>Increment</button>

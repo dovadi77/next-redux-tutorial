@@ -1,8 +1,6 @@
 import { Provider } from "react-redux";
 import React from "react";
 import { createWrapper } from "next-redux-wrapper";
-
-import { INCREMENT_COUNTER } from "../redux/actions/counterAction";
 import store from "../redux/store";
 
 function MyApp(props) {

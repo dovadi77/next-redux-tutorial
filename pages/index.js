@@ -24,10 +24,12 @@ export default function Home() {
 						<p>Find in-depth information about Next.js features and API.</p>
 					</a>
 
-					<a href="https://nextjs.org/learn" className="card">
-						<h3>Learn &rarr;</h3>
-						<p>Learn about Next.js in an interactive course with quizzes!</p>
-					</a>
+					<Link href={"/todos"}>
+						<a className="card">
+							<h3>Todos APP with Redux &rarr;</h3>
+							<p>A testing page for integrate next.js with redux.</p>
+						</a>
+					</Link>
 
 					<Link href={"/counter"}>
 						<a className="card">
