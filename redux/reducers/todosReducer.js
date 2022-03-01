@@ -12,7 +12,9 @@ const todosReducer = (state = { value: [] }, action) => {
 		case UPDATE_TODOS:
 			return {
 				...state,
-				value: sortTodos(replaceItemAtIndex(state.value, action.index)),
+				value: sortTodos(
+					replaceItemAtIndex(state.value, action.index, action.value)
+				),
 			};
 		case DELETE_TODOS:
 			return {
