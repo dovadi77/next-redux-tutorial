@@ -9,12 +9,13 @@ import {
 import { TodoItemCreate } from "../components/TodoItemCreate";
 import { TodoItem } from "../components/TodoItem";
 import { TodosStats } from "../components/TodosStats";
+import styles from "../styles/Home.module.css";
 
 function Todos(props) {
 	const todoList = props.todos;
 
 	return (
-		<div className="container">
+		<div className={styles.container}>
 			<TodosStats todos={todoList} />
 			<TodoItemCreate addTodoList={props.add} />
 

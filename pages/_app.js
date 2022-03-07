@@ -2,6 +2,7 @@ import { Provider } from "react-redux";
 import React from "react";
 import { createWrapper } from "next-redux-wrapper";
 import store from "../redux/store";
+import "../styles/globals.css";
 
 function MyApp(props) {
 	const { Component, pageProps } = props;
