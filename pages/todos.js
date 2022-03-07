@@ -7,7 +7,7 @@ import {
 	deleteTodos,
 } from "../redux/actions/todosAction";
 import { TodoItemCreate } from "../components/TodoItemCreate";
-import { TodoItem } from "../components/todoItem";
+import { TodoItem } from "../components/TodoItem";
 import { TodosStats } from "../components/TodosStats";
 
 function Todos(props) {
